@@ -18,10 +18,12 @@ while (numeroDeCliente < 1750 && intentos > 1) {
 if (numeroDeCliente >= 1750) {
     console.log("Puede Loguearse");
     document.write("Bienvenido de nuevo " + nombreyapellidoIngresado);
+    alert("¡Ya estás logueado! Espera mientras te redirigimos. ");
 } else {
     console.log("Número de Legajo Incorrecto. Intente nuevamente.");
     document.write("Número de Legajo Incorrecto. Intente nuevamente.");
 }
+
 
 /*consigna 3*/
 
