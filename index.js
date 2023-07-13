@@ -3,7 +3,7 @@ let nombreyapellidoIngresado = prompt("Ingrese su Nombre y Apellido");
 console.log(nombreyapellidoIngresado);
 console.log(typeof nombreyapellidoIngresado);
 
-//LEGAJO DEL CLIENTE
+// LEGAJO DEL CLIENTE
 let intentos = 3;
 let numeroDeCliente = Number(prompt("Ingrese su número de Legajo Mayor a 1750"));
 console.log(numeroDeCliente);
@@ -19,8 +19,8 @@ if (numeroDeCliente >= 1750) {
     console.log("Puede Loguearse");
     document.write("Bienvenido de nuevo " + nombreyapellidoIngresado);
 } else {
-    console.log("Número de Legajo Inexistente. Has alcanzado el límite maximo de intentos. Contacta al administrador.");
-    document.write("Número de Legajo Inexistente. Has alcanzado el límite maximo de intentos. Contacta al administrador.");
+    console.log("Número de Legajo Incorrecto. Intente nuevamente.");
+    document.write("Número de Legajo Incorrecto. Intente nuevamente.");
 }
 
 /*consigna 3*/
